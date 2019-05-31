@@ -21,11 +21,11 @@ image2.setAttribute("src", randomDiceImage2);
 // TITLE CHANGE
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelector('h1').innerHTML = "🚩 Player 1 Wins!"
+  document.querySelector('h2').innerHTML = "🚩 Player 1 Wins!"
 }
 if (randomNumber1 < randomNumber2) {
-  document.querySelector('h1').innerHTML = "Player 2 Wins! 🚩"
+  document.querySelector('h2').innerHTML = "Player 2 Wins! 🚩"
 }
 if (randomNumber1 === randomNumber2) {
-  document.querySelector('h1').innerHTML = "🏳️ It's a Draw! 🏳️"
+  document.querySelector('h2').innerHTML = "🏳️ It's a Draw! 🏳️"
 }
